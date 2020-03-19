@@ -1,38 +1,137 @@
-.App {
+.app {
   text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-view {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.input {
+  background-color: #3AD886;
+  height: 420px;
+  width: 400px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+  align-items: center;
+  border-radius: 10px;
+  padding-bottom: 35px;
+  margin-bottom: 110px;
+}
+
+
+
+.input-box {
+  width: 88%;
+}
+
+.product-image {
+  height: 150px;
+  width: 200px;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.placeholder-img {
+  margin-top: 20px;
+  height: 160px;
+  width: 285px;;
+}
+
+.form-buttonbox {
+  display: flex;
+  
+  padding-left: 230px;
+  margin-right: 20px;
+  position: relative;
+  top: 18px;
+  
+  
+}
+
+.form-button {
+  background-color: #ED6B5A;
+}
+
+.inventory-list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+.header {
+  height: 10vh;
+  background-color: #AB2A19;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 10px;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.product-box {
+  width: 450px;
+  height: 190px;
+  background-color: #D34735;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: 20px;
+  /* padding-bottom: 30px; */
+  border-radius: 10px;
+
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.product-info {
+  display: flex;
+  text-align: right;
+  align-items: flex-start;
+  flex-direction: column;
+  
+  
+
 }
+
+.top-box {
+  display: flex;
+  
+}
+
+.product-buttons {
+  display: flex;
+  padding-left: 230px;
+  justify-content: space-between;
+  margin-right: 20px;
+  position: relative;
+  bottom: 46px;
+}
+
+.delete-edit-btn {
+  background-color: #3AD886;
+  height: 27px;
+  border-radius: 5px;
+  
+}
+
+
+
+
+
+
